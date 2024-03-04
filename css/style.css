@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+/* =================================== */
+#amount-of-letters {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: rgb(200, 255, 200);
+}
+
+#amount-of-letters .search__container {
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+#amount-of-letters .search__input {
+  padding: 1rem;
+  text-align: center;
+}
+
+#amount-of-letters .search__input:hover,
+#amount-of-letters .search__input:focus {
+  outline: none;
+  border-color: crimson;
+}
+
+#amount-of-letters .highlighted {
+  text-shadow: 0 0 6px crimson;
+  color: crimson;
+}
+/* ================================ */
+#split-text span {
+  border: 1px solid red;
+  padding: 2px;
+}
