@@ -10,5 +10,13 @@ function checkAge(age) {
   }
 }
 
+/*function checkAge(age) {
+  return age > 18 ? true : 'get the permission';
+}*/
+
+/*function checkAge(age) {
+  return age > 18 || 'get the permission';
+}*/
+
 const res = checkAge(19);
 console.log(res);
